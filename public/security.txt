@@ -1,0 +1,35 @@
+Contact: mailto:ceoeddieo@gmail.com
+Expires: 2025-12-31T23:59:59.000Z
+Encryption: https://aegiscyberdefense.com/pgp.txt
+Preferred-Languages: en
+Canonical: https://aegiscyberdefense.com/.well-known/security.txt
+
+# Security Disclosure Policy
+
+Aegis Cyber Defense values the security community and recognizes the importance of responsible disclosure. If you discover a security vulnerability in our systems or services, we encourage you to report it to us responsibly.
+
+## Reporting a Vulnerability
+
+Please email ceoeddieo@gmail.com with:
+- A description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Suggested remediation (if any)
+
+## What to Expect
+
+- We will acknowledge receipt within 24 hours
+- We will provide an initial assessment within 5 business days
+- We will keep you updated on our progress
+- We will coordinate public disclosure if appropriate
+
+## Scope
+
+Please only test systems that you are authorized to test. Do not:
+- Access or modify data that does not belong to you
+- Disrupt our services or systems
+- Use automated vulnerability scanners
+- Perform social engineering attacks
+
+Thank you for helping keep Aegis Cyber Defense and our clients secure.
+

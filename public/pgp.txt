@@ -1,0 +1,15 @@
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+NOTE: This is a placeholder PGP key. Replace with your actual PGP public key.
+
+For instructions on generating a PGP key, visit:
+https://www.gnupg.org/gph/en/manual/c14.html
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBF...
+(Replace this entire block with your actual PGP public key)
+...
+-----END PGP PUBLIC KEY BLOCK-----
+

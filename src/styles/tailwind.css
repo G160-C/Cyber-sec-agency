@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-space-black text-white font-body antialiased;
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass-effect {
+    @apply bg-glass-white backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-card {
+    @apply glass-effect rounded-xl p-6 shadow-2xl;
+  }
+  
+  .neon-glow {
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.5),
+                0 0 20px rgba(220, 38, 38, 0.3),
+                0 0 30px rgba(220, 38, 38, 0.1);
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-cyber-red to-dark-red bg-clip-text text-transparent;
+  }
+  
+  .holographic-grid {
+    background-image: 
+      linear-gradient(rgba(220, 38, 38, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(220, 38, 38, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

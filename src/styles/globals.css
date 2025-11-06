@@ -1,0 +1,61 @@
+/* Additional global styles */
+:root {
+  --space-black: #050A14;
+  --cyber-red: #DC2626;
+  --dark-red: #991B1B;
+  --red-accent: #EF4444;
+  --glass-white: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--space-black);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--space-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cyber-red);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-red);
+}
+
+/* Selection styling */
+::selection {
+  background: var(--cyber-red);
+  color: #ffffff;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--cyber-red);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
